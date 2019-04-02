@@ -103,3 +103,28 @@ for (let i=1; i<schet; i++) {
     prob+=str;
     console.log(prob);
 }
+
+
+//В конце вывести, сколько тарелок осталось, когда моющее средство закончилось или наоборот.
+let dish=24;
+let sredstvo=100;
+
+if ((dish)<=(sredstvo*2)) {
+    let ostatoc=[sredstvo];
+    for (let i=0; i<=dish; i++) {
+        sredstvo-=0.5;
+        ostatoc.push(sredstvo);
+        console.log(ostatoc[i]+" ml");
+    }
+    console.log("Моющего средства осталось:"+ostatoc[dish]+' ml');
+}
+else {
+    let ostatoc=[sredstvo];
+    let ost=sredstvo;
+    for (let i=0; i<=(ost*2); i++){
+        sredstvo-=0.5;
+        ostatoc.push(sredstvo);
+        console.log(ostatoc[i]+" ml");
+    }
+    console.log('Тарелок осталось: '+(dish-(ost*2)));
+}

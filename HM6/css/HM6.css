@@ -1,0 +1,34 @@
+
+.border {
+    box-shadow: inset;
+    width: 400px;
+    margin: 30px auto 0;
+    background: gainsboro;
+    padding: 15px;
+}
+.boxShadow{
+    box-shadow: 0 0 5px 10px #333333 inset;
+    padding: 10px;
+}
+.border img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border: 2px solid black;
+    margin: auto;
+}
+
+.border h2{
+    padding: 10px;
+    color: black;
+    text-align: center;
+}
+.border p{
+    padding: 10px;
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 15pt;
+    font-style: oblique;
+}
+

@@ -1,0 +1,40 @@
+#for_pole {
+    max-width: 1000px;
+    margin: 0 auto;
+    border: 1px solid darkred;
+    
+}
+
+.cell {
+    background: red;
+    margin: 10px;
+    padding: 30px;
+    text-align: center;
+    width: 100px;
+
+}
+
+#for_pole .present {
+    background: yellow;
+    color: #333;
+    transition-property: background-color;
+    transition-duration: 1s;
+    width: 100px;
+    padding: 10px;
+}
+
+#for_pole .fail {
+    background: darkgrey;
+    color: black;
+    width: 100px;
+    padding: 10px;
+}
+
+#counter {
+    border: 1px solid firebrick;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    margin: 20px auto;
+}
+

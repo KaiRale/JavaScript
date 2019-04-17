@@ -47,16 +47,11 @@ let elem=form.elements.disabledOnOff;
 elem.addEventListener("click", activated);
 
 function activated(event) {
-    if (event.target.checked) {
+    if (form.elements.disable.hasAttribute('disabled')) {
         form.elements.disable.removeAttribute('disabled');
+    }
+    else {
+        form.elements.disable.setAttribute('disabled','disabled')
     }
     
 }
-/* let allInput=document.querySelectorAll('input');
-console.log(allInput);
-почему так не работает?
-for (let i=0; i<allInput; i++) {
-    if (allInput[i].hasAttribute('disabled')) {
-        console.log(allInput[i]);
-    }
-}*/

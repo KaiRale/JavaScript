@@ -1,8 +1,6 @@
 #for_pole {
-    max-width: 1000px;
+    max-width: 700px;
     margin: 0 auto;
-    border: 1px solid darkred;
-    
 }
 
 .cell {

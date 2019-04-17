@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>События формы</title>
+    <link rel="stylesheet" href="css/form-events.css">
+</head>
+<body>
+<form name="lesson">
+
+    <fieldset name="checkbox_fieldset">
+        <legend>Checkbox | Radio</legend>
+        <div>
+            <p>Выбор цвета</p>
+            <label><input  value="lightblue" name="color" type="radio">Синий</label>
+            <label><input  value="yellow" name="color" type="radio">Желтый</label>
+        </div>
+        <div>
+            <p>Отметьте интересующие языки программирования</p>
+            <label><input checked value="php" name="lang[]" type="checkbox">PHP</label>
+            <label><input value="java" name="lang[]" type="checkbox">Java</label>
+            <label><input checked value="python" name="lang[]" type="checkbox">Python</label>
+            <label><input value="ruby" name="lang[]" type="checkbox">Ruby</label>
+        </div>
+        <div>
+            <label><input type="checkbox" name="disabledOnOff">Отметьте, если указать другую информацию</label>
+            <input type="text" name="disable" disabled="false">
+        </div>
+    </fieldset>
+</form>
+
+
+<script src="js/HM8.js"></script>
+</body>
+</html>

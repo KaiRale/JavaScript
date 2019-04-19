@@ -1,0 +1,36 @@
+#error {
+    display: none;
+    color: red;
+    font-style: italic;
+}
+#correctly {
+    display: none;
+    color: green;
+    font-style: italic;
+}
+
+div {
+
+    width: 700px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 20px 0px 20px 0px;
+    word-wrap: break-word;
+}
+
+img{
+    max-width: 50px;
+    height: auto;
+    float: left;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+#pTime {
+    text-align: right;
+    margin: 0;
+}
+#pAut{
+    text-align: right;
+    margin: 0;
+    font-style: italic;
+}

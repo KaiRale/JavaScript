@@ -1,0 +1,55 @@
+
+.valid {
+    border-color: green;
+}
+
+.invalid{
+    border-color: red;
+}
+
+form {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+fieldset{
+    border: 1px solid indigo ;
+    padding: 20px;
+}
+legend {
+    font-weight: bold;
+    font-size: 20px;
+    color: indigo;
+}
+.submit {
+    width: 200px;
+    margin: 20px auto;
+    color: indigo;
+}
+
+input {
+    margin: 5px;
+    padding: 3px;
+    outline: none;
+    border: 1px solid #333333;
+    border-radius: 3px;
+}
+
+.errorText {
+    display: none;
+    color: red;
+    font-style: italic;
+}
+#valid {
+    padding-top: 10px;
+    display: none;
+    color: green;
+    font-style: italic;
+}
+#error {
+    padding-top: 10px;
+    display: none;
+    color: red;
+    font-style: italic;
+}

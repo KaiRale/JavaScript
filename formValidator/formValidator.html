@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<form name="someForm">
+    <fieldset>
+        <legend> Основная информация</legend>
+
+            <p><input class="validate" name="login" type="text" placeholder="login" required></p>
+            <p><input class="validate" name="pwd" type="password" placeholder="password" required></p>
+            <p><input class="validate" name="email" placeholder="e-mail" required></p>
+    </fieldset>
+
+    <p id="error">Проверьте правильность введеных данных</p>
+    <p id="valid">Форма успешно добавлена</p>
+    <input class="submit" type="submit" value="Send">
+</form>
+
+<script src="js/focusValid.js"></script>
+</body>
+</html>
